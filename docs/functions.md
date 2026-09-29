@@ -1,4 +1,3 @@
-
 # Functions
 
 Funciones personalizadas del perfil de PowerShell.
@@ -17,3 +16,17 @@ Funciones personalizadas del perfil de PowerShell.
 | ------------- | --------- | -------------------------------------------------- |
 | `shortpath` | `spath` | Muestra solamente la última carpeta en el prompt. |
 | `fullpath`  | `fpath` | Muestra la ruta completa en el prompt.             |
+
+## `install-powershell-context.ps1`
+
+| Comando                       | Descripción                                                                   |
+| ----------------------------- | ------------------------------------------------------------------------------ |
+| `Install-PowerShellContext` | Agrega "Abrir PowerShell aqui" al menú contextual del Explorador de archivos. |
+
+La opción permite abrir PowerShell directamente en la carpeta seleccionada o en la carpeta actual.
+
+## `uninstall-powershell-context.ps1`
+
+| Comando                         | Descripción                                                                     |
+| ------------------------------- | -------------------------------------------------------------------------------- |
+| `Uninstall-PowerShellContext` | Elimina "Abrir PowerShell aqui" del menú contextual del Explorador de archivos. |
