@@ -13,6 +13,7 @@ Actualmente incluye:
 * Autocompletado de módulos de Python para comandos como `python -m` y `poetry run python -m`.
 * Integración con el menú contextual del Explorador para abrir PowerShell directamente en una carpeta.
 * Integración con la herramienta de [convert-imageType](https://github.com/TeoMarquez/convert-imageType).
+* Funcion para gestion de venvs de python
 
 ## Instalación
 
@@ -47,6 +48,7 @@ Powershell-profile/
 │   ├── install-powershell-context.ps1
 │   ├── uninstall-powershell-context.ps1
 │   └── convert-image.ps1
+│   └── pvenv.ps1
 ├── completions/
 │   └── python.ps1
 └── docs/
