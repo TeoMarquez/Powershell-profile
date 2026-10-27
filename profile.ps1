@@ -10,6 +10,7 @@ $ProfileRoot = $PSScriptRoot
 . "$ProfileRoot\functions\install-powershell-context.ps1"
 . "$ProfileRoot\functions\uninstall-powershell-context.ps1"
 . "$ProfileRoot\functions\convert-image.ps1"
+. "$ProfileRoot\functions\pvenv.ps1"
 
 # Completions
 . "$ProfileRoot\completions\python.ps1"
